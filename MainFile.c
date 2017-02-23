@@ -28,7 +28,7 @@
 
 unsigned int tcfg;
 int counter;
-
+#test
 void main(void)
 {
     //Define outputs as digital outputs
