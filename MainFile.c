@@ -34,6 +34,7 @@ void main(void)
     //Define outputs as digital outputs
     PORTSetPinsDigitalOut(IOPORT_E, BIT_0 | BIT_1 | BIT_2 | BIT_3 | BIT_4 | BIT_5 | BIT_6 | BIT_7);
     PORTSetPinsDigitalOut(IOPORT_B, BIT_10 | BIT_11 | BIT_12 | BIT_13);
+    PORTSetPinsDigitalIn(IOPORT_A, BIT_6 | BIT_7);
     
     while(1)
     {
